@@ -1,2 +1,2 @@
-How can wwe use delegates
+How can we use delegates
 
