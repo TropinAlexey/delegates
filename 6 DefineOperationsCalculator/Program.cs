@@ -46,13 +46,9 @@ namespace _6_DefineOperationsCalculator
                     var body = Console.ReadLine();
                     DefineOperation(operationName, CSharpScript.EvaluateAsync<Func<double, double, double>>(body).GetAwaiter().GetResult());
 
-                    Console.WriteLine("Enter operation:");
-                    var op2 = Console.ReadLine();
-                    Console.WriteLine();
-
                     Console.WriteLine("Enter second operand:");
                     var y = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine($"Result is: {PerformOperation(op2, x, y)}");
+                    Console.WriteLine($"Result is: {PerformOperation(operationName, x, y)}");
                     Console.ReadKey();
                 }
                 else
