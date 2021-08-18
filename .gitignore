@@ -4,9 +4,13 @@
 
 /obj
 /SwitchCalculator/obj
-/SwitchCalculator/bin/Debug/netcoreapp3.1
-/SwitchIncapsulatedFunctionsCalculator/bin/Debug/netcoreapp3.1
+/SwitchCalculator/bin
+/SwitchIncapsulatedFunctionsCalculator/bin
 /SwitchIncapsulatedFunctionsCalculator/obj
-/3 IncapsulatedFunctionsCalculator/bin/Debug/netcoreapp3.1
+/3 IncapsulatedFunctionsCalculator/bin
 /3 IncapsulatedFunctionsCalculator/obj
 /4 IncapsulatedAnonFunctionsCalculator/obj
+/LambdaFunctionsCalculator/obj
+/6 DefineOperationsCalculator/bin
+/6 DefineOperationsCalculator/obj
+/LambdaFunctionsCalculator/bin
