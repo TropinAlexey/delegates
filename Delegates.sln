@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCalculator", "SwitchCalculator\SwitchCalculator.csproj", "{4066992F-736B-4A9C-884B-496601245B2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 SwitchCalculator", "SwitchCalculator\1 SwitchCalculator.csproj", "{4066992F-736B-4A9C-884B-496601245B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 SwitchIncapsulatedFunctionsCalculator", "SwitchIncapsulatedFunctionsCalculator\2 SwitchIncapsulatedFunctionsCalculator.csproj", "{173D8FBB-C828-45D1-B731-6F49EC5CE27A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4066992F-736B-4A9C-884B-496601245B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4066992F-736B-4A9C-884B-496601245B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4066992F-736B-4A9C-884B-496601245B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

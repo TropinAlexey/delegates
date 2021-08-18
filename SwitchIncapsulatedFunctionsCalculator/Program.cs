@@ -1,18 +1,22 @@
 ﻿using System;
 
-namespace SwitchCalculator
+namespace SwitchIncapsulatedFunctionsCalculator
 {
-
     class Program
     {
+        public static double DoDivision(double x, double y) { return x / y; }
+        public static double DoMultiplication(double x, double y) { return x * y; }
+        public static double DoSubtraction(double x, double y) { return x - y; }
+        public static double DoAddition(double x, double y) { return x + y; }
+
         public static double PerformOperation(string operation, double x, double y)
         {
             return operation switch
             {
-                "+" => x + y,
-                "-" => x - y,
-                "*" => x * y,
-                "/" => x / y,
+                "+" => DoAddition(x, y),
+                "-" => DoSubtraction(x, y),
+                "*" => DoMultiplication(x, y),
+                "/" => DoDivision(x, y),
                 _ => throw new ArgumentException($"Operation {operation} is invalid", nameof(operation))
             };
         }
