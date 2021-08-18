@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Define the delegate
 public delegate void Del(string message);
 
 namespace _0_Sandbox
