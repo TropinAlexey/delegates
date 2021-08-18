@@ -53,8 +53,6 @@ namespace _6_DefineOperationsCalculator
                 }
                 else
                 {
-                    Console.WriteLine();
-
                     Console.WriteLine("Enter second operand:");
                     var y = Convert.ToDouble(Console.ReadLine());
 
