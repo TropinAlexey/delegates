@@ -1,24 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace SwitchIncapsulatedFunctionsCalculator
+namespace _3_IncapsulatedFunctionsCalculator
 {
     class Program
     {
+        private delegate double OperationDelegate(double x, double y);
+
         public static double DoDivision(double x, double y) { return x / y; }
         public static double DoMultiplication(double x, double y) { return x * y; }
         public static double DoSubtraction(double x, double y) { return x - y; }
         public static double DoAddition(double x, double y) { return x + y; }
 
+        private static Dictionary<string, OperationDelegate> _operations = new Dictionary<string, OperationDelegate>
+        {
+            { "+", DoAddition },
+            { "-", DoSubtraction},
+            { "*", DoMultiplication },
+            { "/", DoDivision },
+        };
+
         public static double PerformOperation(string operation, double x, double y)
         {
-            return operation switch
-            {
-                "+" => DoAddition(x, y),
-                "-" => DoSubtraction(x, y),
-                "*" => DoMultiplication(x, y),
-                "/" => DoDivision(x, y),
-                _ => throw new ArgumentException($"Operation {operation} is invalid", nameof(operation))
-            };
+            if (!_operations.ContainsKey(operation))
+                throw new ArgumentException($"Operation {operation} is invalid", nameof(operation));
+            return _operations[operation](x, y);
         }
 
         static void Main(string[] args)

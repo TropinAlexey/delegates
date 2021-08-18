@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 SwitchCalculator", "Switc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 SwitchIncapsulatedFunctionsCalculator", "SwitchIncapsulatedFunctionsCalculator\2 SwitchIncapsulatedFunctionsCalculator.csproj", "{173D8FBB-C828-45D1-B731-6F49EC5CE27A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 IncapsulatedFunctionsCalculator", "3 IncapsulatedFunctionsCalculator\3 IncapsulatedFunctionsCalculator.csproj", "{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{173D8FBB-C828-45D1-B731-6F49EC5CE27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
