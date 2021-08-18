@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 SwitchIncapsulatedFunctio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 IncapsulatedFunctionsCalculator", "3 IncapsulatedFunctionsCalculator\3 IncapsulatedFunctionsCalculator.csproj", "{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 IncapsulatedAnonFunctionsCalculator", "4 IncapsulatedAnonFunctionsCalculator\4 IncapsulatedAnonFunctionsCalculator.csproj", "{19F673DB-B3E7-4180-AAF1-04C55B8771F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D5DB0D-9261-4418-AB3F-5EEC3BFA0176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F673DB-B3E7-4180-AAF1-04C55B8771F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F673DB-B3E7-4180-AAF1-04C55B8771F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F673DB-B3E7-4180-AAF1-04C55B8771F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F673DB-B3E7-4180-AAF1-04C55B8771F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

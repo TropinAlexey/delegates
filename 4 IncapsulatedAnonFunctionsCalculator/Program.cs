@@ -1,23 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _3_IncapsulatedFunctionsCalculator
+namespace _4_IncapsulatedAnonFunctionsCalculator
 {
     class Program
     {
         private delegate double OperationDelegate(double x, double y);
 
-        public static double DoDivision(double x, double y) { return x / y; }
-        public static double DoMultiplication(double x, double y) { return x * y; }
-        public static double DoSubtraction(double x, double y) { return x - y; }
-        public static double DoAddition(double x, double y) { return x + y; }
-
         private static readonly Dictionary<string, OperationDelegate> _operations = new Dictionary<string, OperationDelegate>
         {
-            { "+", DoAddition },
-            { "-", DoSubtraction},
-            { "*", DoMultiplication },
-            { "/", DoDivision }
+            {"+", delegate(double x, double y) { return x + y; }},
+            {"-", delegate(double x, double y) { return x - y; }},
+            {"*", delegate(double x, double y) { return x * y; }},
+            {"/", delegate(double x, double y) { return x / y; }}
         };
 
         public static double PerformOperation(string operation, double x, double y)
